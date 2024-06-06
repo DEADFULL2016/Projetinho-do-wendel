@@ -8,8 +8,11 @@ class carro_encapsulado():
         self.__Tipo_de_combustível = combustivel
         self.__Motor = motor
 
-    def Modeloset(self, Audi):
+    def setModelo(self, Audi):
         self.__Modelo = Audi
 
-    def Modelosget(self):
+    def getModelos(self):
         return self.__Modelo
+    
+    def setModelo(self, modelo):
+        self.__Modelo = modelo
